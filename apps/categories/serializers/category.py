@@ -2,7 +2,7 @@
 from rest_framework import serializers
 
 # Project
-from apps.categories.models.product_category import ProductCategory
+from apps.categories.models.category import ProductCategory
 
 
 class ProductCategorySerializer(serializers.ModelSerializer):
